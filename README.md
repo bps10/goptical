@@ -1,6 +1,5 @@
-
-             GNU Optical design and simulation library
-             =========================================
+GNU Optical design and simulation library
+=========================================
 
 Goptical is a C++ optical design and simulation library. Goptical is
 free software and is part of the GNU project.
@@ -15,7 +14,16 @@ It takes advantages of the C++ object model to allow building complex
 optical systems with a few classes instanciations as optical
 components are represented by language objects.
 
------
+## Install
+
+```bash
+./bootstrap
+./configure
+make
+sudo make install
+```
+
+---
  Copyright (C) 2010-2011 Free Software Foundation, Inc
  
  This program is free software: you can redistribute it and/or modify
@@ -30,3 +38,4 @@ components are represented by language objects.
  
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
