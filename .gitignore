@@ -1,0 +1,25 @@
+Makefile.in
+aclocal.m4
+build-aux/
+configure
+*.texi
+config.hh.in
+Makefile
+.deps/
+libtool
+config.log
+config.status
+config.hh
+stam-h1
+stamp-h1
+*.o
+*.la
+*.lo
+.libs/
+tests/*
+examples/Makefile examples/Makefile.am examples/Makefile.in examples/curve_model examples/hierarchical_design examples/render_3d examples/segmented_mirror examples/simple_refractor examples/tessar_lens
+goptical_core/tests/Makefile goptical_core/tests/Makefile.am goptical_core/tests/Makefile.in goptical_core/tests/test_2d_plot goptical_core/tests/test_2d_plot.cc goptical_core/tests/test_2d_plot.o goptical_core/tests/test_coordinates goptical_core/tests/test_coordinates.cc goptical_core/tests/test_coordinates.o goptical_core/tests/test_discrete_set goptical_core/tests/test_discrete_set-Cubic.txt goptical_core/tests/test_discrete_set-Cubic2.txt goptical_core/tests/test_discrete_set-Cubic2Deriv.txt goptical_core/tests/test_discrete_set-Cubic2DerivInit.txt goptical_core/tests/test_discrete_set-CubicDeriv.txt goptical_core/tests/test_discrete_set-CubicDerivInit.txt goptical_core/tests/test_discrete_set-CubicSimple.txt goptical_core/tests/test_discrete_set-Linear.txt goptical_core/tests/test_discrete_set-Nearest.txt goptical_core/tests/test_discrete_set-Quadratic.txt goptical_core/tests/test_discrete_set-in.txt goptical_core/tests/test_discrete_set.cc goptical_core/tests/test_discrete_set.o goptical_core/tests/test_materials goptical_core/tests/test_materials.cc goptical_core/tests/test_materials.o goptical_core/tests/test_patterns goptical_core/tests/test_patterns.cc goptical_core/tests/test_patterns.o goptical_core/tests/test_rendering goptical_core/tests/test_rendering.cc goptical_core/tests/test_rendering.o goptical_core/tests/test_shapes goptical_core/tests/test_shapes.cc goptical_core/tests/test_shapes.o goptical_design/tests/Makefile goptical_design/tests/Makefile.am goptical_design/tests/Makefile.in goptical_design/tests/test_cassegrain goptical_design/tests/test_cassegrain.cc goptical_design/tests/test_cassegrain.o
+examples/
+goptical_core/tests/
+goptical.info
+goptical_design/tests/

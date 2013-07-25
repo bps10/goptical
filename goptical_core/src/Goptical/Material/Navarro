@@ -1,0 +1,8 @@
+#include "Goptical/Material/navarro.hh"
+#include "Goptical/Material/navarro.hxx"
+
+namespace Goptical {
+  namespace Material {
+    using _Goptical::Material::Navarro;
+  }
+}

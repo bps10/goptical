@@ -28,7 +28,7 @@ libgoptical_la_SOURCES = curve_array.cc curve_base.cc curve_composer.cc      \
 	material_proxy.cc material_conrady.cc material_dielectric.cc    \
 	material_dispersion_table.cc material_herzberger.cc             \
 	material_metal.cc material_mirror.cc material_schott.cc         \
-	material_sellmeier.cc material_abbe.cc                          \
+	material_sellmeier.cc material_abbe.cc  material_navarro.cc     \
 	material_sellmeiermod.cc material_vacuum.cc math_matrix.cc      \
 	math_transform.cc shape_base.cc shape_composer.cc shape_disk.cc      \
 	shape_ellipse.cc shape_elliptical_ring.cc shape_infinite.cc     \
