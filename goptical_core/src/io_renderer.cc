@@ -42,13 +42,13 @@ namespace _Goptical {
   namespace Io {
 
     Renderer::Renderer()
-      : _feature_size(20.),
+      : _feature_size(40.),
         _ray_color_mode(RayColorWavelen),
         _intensity_mode(IntensityIgnore)
     {
       _styles_color[StyleForeground] = Rgb(1.0, 1.0, 1.0);
       _styles_color[StyleBackground] = Rgb(0.0, 0.0, 0.0);
-      _styles_color[StyleRay] = Rgb(1.0, 0.0, 0.0);
+      _styles_color[StyleRay] = Rgb(0.0, 0.0, 0.0);
       _styles_color[StyleSurface] = Rgb(0.5, 0.5, 1.0);
       _styles_color[StyleGlass] = Rgb(0.8, 0.8, 1.0);      
     }

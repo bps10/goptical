@@ -15,6 +15,7 @@
 
 ACLOCAL_AMFLAGS = -I build-aux
 SUBDIRS = goptical_core goptical_design examples doc
+AUTOMAKE_OPTIONS = foreign
 
 htmldoc:
 	mkdoc -I $(top_srcdir)/goptical_core/src -I $(top_srcdir)/goptical_design/src --doc-format html

@@ -11,7 +11,7 @@ propagation through the system. Classical optical design analysis
 tools can be used on optical systems.
 
 It takes advantages of the C++ object model to allow building complex
-optical systems with a few classes instanciations as optical
+optical systems with a few classes instantiations as optical
 components are represented by language objects.
 
 ## Install
@@ -19,7 +19,6 @@ components are represented by language objects.
 ```bash
 ./bootstrap
 ./configure
-make
 sudo make install
 ```
 
@@ -38,4 +37,3 @@ sudo make install
  
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
-

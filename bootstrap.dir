@@ -32,7 +32,7 @@ aclocalflags="`sed -ne 's/^[ \t]*ACLOCAL_AMFLAGS[ \t]*=//p' Makefile.am`"
 
 # Check for automake
 amvers="no"
-for v in "-1.13" "1.13" "-1.11" "-1.10" "110" "-1.9" "19" "-1.8" "18" "-1.7" "17" "-1.6" "16" "-1.5" "15"; do
+for v in "1.14" "-1.14" "-1.13" "1.13" "-1.11" "-1.10" "110" "-1.9" "19" "-1.8" "18" "-1.7" "17" "-1.6" "16" "-1.5" "15"; do
   if automake${v} --version >/dev/null 2>&1; then
     amvers="${v}"
     break
@@ -41,7 +41,7 @@ done
 
 if test "${amvers}" = "no" && automake --version > /dev/null 2>&1; then
   amvers="`automake --version | sed -e '1s/[^0-9]*//' -e q`"
-  if expr "$amvers" "<" "1.5" > /dev/null 2>&1; then
+  if expr "$amvers" "<" "1.14" > /dev/null 2>&1; then
     amvers="no"
   else
     amvers=""
@@ -55,7 +55,7 @@ fi
 
 # Check for autoconf
 acvers="no"
-for v in "" "259" "253"; do
+for v in "" "269" "259" "253"; do
   if autoconf${v} --version >/dev/null 2>&1; then
     acvers="${v}"
     break
@@ -73,7 +73,7 @@ if test "$libtool" = "yes"; then
   if glibtoolize --version >/dev/null 2>&1; then
     libtoolize="glibtoolize"
   else
-    for v in "16" "15" "" "14"; do
+    for v in "16" "15" "" "14" "24"; do
       if libtoolize${v} --version >/dev/null 2>&1; then
         libtoolize="libtoolize${v}"
         break

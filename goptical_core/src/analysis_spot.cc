@@ -200,13 +200,13 @@ namespace _Goptical
 
       Trace::Result &result = _tracer.get_trace_result();
       Math::Vector2 center(result.get_intercepted_center(*_image), 0, 1);
-      Math::Vector2 radius(_useful_radius, _useful_radius);
+      Math::Vector2 radius(0.3, 0.3);
 
       renderer.set_window(Math::VectorPair2(center - radius, center + radius));
 
-      _axes.set_position(_centroid);
-      _axes.set_origin(centroid_origin ? _centroid : Math::vector3_0);
-      _axes.set_tics_count(3, Io::RendererAxes::XY);
+      _axes.set_position(Math::vector3_0);
+      _axes.set_origin(Math::vector3_0);
+      _axes.set_tics_count(5, Io::RendererAxes::XY);
       renderer.draw_axes_2d(_axes);
 
       renderer.draw_intercepts(result, *_image);
